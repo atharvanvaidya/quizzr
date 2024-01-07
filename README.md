@@ -6,6 +6,8 @@
 
 Creating quiz questions is difficult, however storing, categorizing and conducting quizzes is way more difficult. 
 
+Quiz masters generally use multiple tools like Powerpoint Presentation, Excel sheets, word documents to store and present quizzes.
+
 Quizzr provides quiz master the features required to easily manage quizzes.
 
 ## Use Cases
