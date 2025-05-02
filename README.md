@@ -22,3 +22,24 @@ Quizzr provides quiz master the features required to easily manage quizzes.
 * Python3
     - Flask
     - pytest
+
+## Installation
+
+### MySQL
+Download [MySQL](https://dev.mysql.com/downloads/) and [MySQL Workbench](https://www.mysql.com/products/workbench/)
+
+Create a new user using the following commands:
+**NOTE**: Please change the below username and password
+```sql
+CREATE USER 'root1'@'localhost' IDENTIFIED BY 'zaq1ZAQ!';
+```
+
+Grant all access to the DB for this user : 
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'root1'@'localhost';
+```
+
+Reload to reflect the changes
+```sql
+FLUSH PRIVILEGES;
+```
